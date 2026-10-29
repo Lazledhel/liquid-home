@@ -1,0 +1,8 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'ru.local.glasshome'
+ compileSdk 35
+ defaultConfig { applicationId 'ru.local.glasshome'; minSdk 26; targetSdk 30; versionCode 10; versionName '8.5' }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
+ packaging { jniLibs { useLegacyPackaging = true } }
+}
